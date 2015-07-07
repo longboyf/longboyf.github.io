@@ -34,10 +34,8 @@ h1{
   font: 60px/1.4 Helvetica, arial, nimbussansl, 
   liberationsans, freesans, clean, sans-serif, 
   "Segoe UI Emoji", "Segoe UI Symbol";
+  margin-left: 100px;
   
-
-	
-
 }
 
 .white_box{
@@ -61,6 +59,7 @@ h1{
   border-right: 1px solid #d8d8d8;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
+  margin-left: 100px;
 }
 
 .gray_box {
@@ -72,7 +71,7 @@ h1{
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
-  margin-left: 0px;
+  margin-left: 100px;
   border-radius: 3px 3px 0 0;
   border: 1px solid #d8d8d8;
   border-top-color: rgb(216, 216, 216);
@@ -125,4 +124,22 @@ h1{
   border-right: 1px solid #d8d8d8;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
+  margin-left: 100px;
+}
+
+
+.side_box2 {
+  border-bottom: 1700px solid #7BB3B8;
+  border-left: 35px solid #7BB3B8;
+  border-right: 0px solid #7BB3B8;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  margin-right: 100px;
+  width:50px;
+  position:relative;z-index:5;
+  width:50px;
+  position:absolute;z-index:2000; 
+
 }
