@@ -60,6 +60,8 @@ h1{
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   margin-left: 100px;
+  align: center;
+
 }
 
 .gray_box {
@@ -148,7 +150,14 @@ h1{
   border: 20px solid #ccc;
 }
 
-.music_pic{
-  width:10px;
+  
+#las_vegas{
+align: center;  
+width: 400px;
 
+}
+
+#las_vegas img{
+max-width:100%;
+height:auto;
 }
