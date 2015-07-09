@@ -143,3 +143,12 @@ h1{
   position:absolute;z-index:2000; 
 
 }
+
+.music_table{
+  border: 20px solid #ccc;
+}
+
+.music_pic{
+  width:10px;
+
+}
