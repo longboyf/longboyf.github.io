@@ -1,0 +1,36 @@
+/* HORIZONTAL NAV */
+
+* {
+	font-size: 24px; /* 1dm /1rem /100% */
+}
+
+.horizontal-nav {
+	margin: 0;
+	padding: 0;
+	background-color: #242628;
+	
+
+}
+
+.horizontal-nav h1{
+	font-weight: normal;
+	font-size: 1rem;
+
+}
+
+.horizontal-nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+.horizontal-nav li {
+	list-style: none;
+}
+
+
+.horizontal-nav a {
+	font-weight: normal;
+	font-size: 1rem;
+	color: #888888;
+	text-decoration: none;	
+}
