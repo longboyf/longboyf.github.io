@@ -4,33 +4,78 @@
 	font-size: 24px; /* 1dm /1rem /100% */
 }
 
+.clearfix{
+	overflow: auto;
+}
+
 .horizontal-nav {
 	margin: 0;
 	padding: 0;
 	background-color: #242628;
-	
+
 
 }
 
 .horizontal-nav h1{
+	padding: 0;
+	margin: 0;
 	font-weight: normal;
 	font-size: 1rem;
+	float: left;
 
 }
 
 .horizontal-nav ul{
 	margin: 0;
 	padding: 0;
+
 }
 
 .horizontal-nav li {
 	list-style: none;
+
 }
 
 
 .horizontal-nav a {
+	display: block;
+	padding: .8rem .3rem;
 	font-weight: normal;
 	font-size: 1rem;
 	color: #888888;
-	text-decoration: none;	
+	text-decoration: none;
+
+}
+
+/* The > will only grab the first descendants of the first li */
+.horizontal-nav > li:first-child{
+	float: left;
+}
+
+.horizontal-nav > li:last-child{
+	float: right;
+}
+
+.horizontal-nav a{
+	float: right;
+}
+
+.horizontal-nav > li:last-child li{
+	float: left;
+}
+
+#main {
+	margin-top: 50px;
+	background-color: #777777;
+	border: 100px;
+	display: block;
+	float: left;
+}
+
+#sidebar{
+	padding-right: 100px;
+	margin-top: 50px;
+	float: right;
+	background-color: #111111;
+
 }
