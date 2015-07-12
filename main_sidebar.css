@@ -1,0 +1,32 @@
+.horizontal-nav{
+	margin: 0;
+	padding: 0;
+	background-color: #242628;
+
+
+}
+
+.horizontal-nav a{
+	float: right;
+	display: block;
+}
+
+.horizontal-nav h1{
+	float: left;
+	margin: 0;
+	font-weight: normal;
+	font-size: 1rem;
+	float: left;
+
+}
+
+.clearfix{
+	overflow: auto;
+}
+
+.horizontal-nav > li:first-child {
+	list-style: none;
+	float: left;
+
+}
+
