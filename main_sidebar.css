@@ -1,32 +1,62 @@
-.horizontal-nav{
-	margin: 0;
-	padding: 0;
-	background-color: #242628;
-
-
+* { 
+	box-sizing: border-box;
+	font-size: 24px;
 }
 
-.horizontal-nav a{
-	float: right;
-	display: block;
-}
-
-.horizontal-nav h1{
-	float: left;
-	margin: 0;
-	font-weight: normal;
-	font-size: 1rem;
-	float: left;
-
-}
 
 .clearfix{
 	overflow: auto;
 }
 
-.horizontal-nav > li:first-child {
-	list-style: none;
-	float: left;
+.horizontal-nav {
+	margin: 0;
+	padding: 0;
+	background-color: #242628;
+}
 
+.horizontal-nav h1{
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+	font-size: 1rem;
+	float: left;
+}
+
+
+.horizontal-nav ul{
+	margin: 0;
+	padding: 0;
+
+}
+
+.horizontal-nav li{
+	list-style: none;
+}
+
+.horizontal-nav a {
+	display: block;
+	padding: .8rem .3rem; 
+	font-weight: normal;
+	font-size: 1rem;
+	color: #888888;
+	text-decoration: none;
+
+}
+
+
+.horizontal-nav > li:first-child{
+	float: left;
+}
+
+.horizontal-nav > li:last-child{
+	float: right;
+}
+
+.horizontal-nav a{
+	float: right;
+}
+
+.horizontal-nav > li:last-child li{
+	float: left;
 }
 
