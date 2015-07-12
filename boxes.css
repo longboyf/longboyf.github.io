@@ -1,0 +1,29 @@
+#main{
+	float: left;
+	width: 60%;
+	height: 20rem;
+	color: #39ae27;
+	border: 2px solid #39ae27;
+	background-color: #dddddd;
+	margin-left: 10px;
+	margin-top: 1em;
+	border-radius: 10px;
+	font-size: 20px;
+
+}
+
+#main li {
+	font-size: 20px;
+}
+
+#side{
+	float: right;
+	width: 30%;
+	color: #d60a1e;
+	border: 2px solid #d60a1e;
+	background-color: #dddddd;
+	margin-right: 10px;
+	margin-top: 1em;
+	border-radius: 10px;
+
+}
