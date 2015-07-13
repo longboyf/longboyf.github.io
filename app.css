@@ -1,7 +1,8 @@
 /* HORIZONTAL NAV */
 
 * {
-	box-sizing: border-box;
+	box-sizing: border-box; /* rather than the box being the width and the 
+	padding it will say the width will always be the width */
 	font-size: 24px; /* 1dm /1rem /100% */
 }
 
@@ -53,7 +54,7 @@
 .horizontal-nav > li:first-child{
 	float: left;
 }
-
+/* The > will only grab the first descendants of the last li */
 .horizontal-nav > li:last-child{
 	float: right;
 }
