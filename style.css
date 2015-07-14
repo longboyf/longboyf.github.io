@@ -1,44 +1,5 @@
-h1{
-	font-family: fantasy;
-	font-style: strong;
-	font-variant: normal;
-	font-weight: 700;
-	line-height: 200 px;
-	text-align: center;
-	  padding: 8px 16px;
-  padding-top: 8px;
-  padding-right: 16px;
-  padding-bottom: 8px;
-  padding-left: 16px;
-  margin-bottom: 20px;
-  background-color: #f1f6fb;
-  color: #244f79;
-  border: solid 1px #d0e5f8;
-  border-top-color: rgb(208, 229, 248);
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-right-color: rgb(208, 229, 248);
-  border-right-style: solid;
-  border-right-width: 1px;
-  border-bottom-color: rgb(208, 229, 248);
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-left-color: rgb(208, 229, 248);
-  border-left-style: solid;
-  border-left-width: 1px;
-  border-radius: 3px;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
-  font: 60px/1.4 Helvetica, arial, nimbussansl, 
-  liberationsans, freesans, clean, sans-serif, 
-  "Segoe UI Emoji", "Segoe UI Symbol";
-  margin-left: 100px;
-  
-}
 
-.white_box{
+  .white_box{
   padding-top: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
